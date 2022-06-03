@@ -1,3 +1,21 @@
+# creating a class
+class Student:
+    name="Naima"
+    age=21
+    country="Kenya"
+    school="AkiraChix"
+    
+
+# creating an instance of a class
+class Student:
+    school="AkiraChix"
+    def __init__(self, name,age, country):
+        self.name=name
+        self.age=age
+        self.country=country
+    def greeting(self):
+        return(f"Hello {self.name} you are {self.age} years old and you are from {self.country} ")
+
 #Assignment
 # Add these methods to class student - full_name, year_of_birth, initials. 
 # Create two instances and verify the work as expected       

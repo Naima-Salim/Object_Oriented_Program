@@ -1,3 +1,10 @@
+# creating a class
+class Account:
+    Account_Name="Naima Salim"
+    Account_Number=123455
+    Password="mimayusuf"
+    Amount=120,000,000
+
 #creating an instance of a class
 class Account:
     def __init__(self, Account_Name,amount):
