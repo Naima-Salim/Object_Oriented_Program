@@ -27,7 +27,7 @@ class Square:
         return f"the area of the square is {A}"
 
     def perimeter(self):
-        P=2*(self.side)+(self.side)+(self.side)+(self.side)
+        P=4*(self.side)
         return f"the perimeter of the circle is {P}" 
 
 #3 Class Rectangle
