@@ -40,10 +40,10 @@ class Account:
     
     def deposits_statement(self):
         for n in self.deposits:
-            print(f" your deposit is {n}","\n")
+            print(f" your deposit is {n}")
 
     def withdrawals_statement(self):
         for n in self.withdrawals:
-            print(f"you have withdrawn {n}", "\n")
+            print(f"you have withdrawn {n}")
 
        
